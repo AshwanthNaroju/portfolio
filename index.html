@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naroju Ashwanth | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS for scroll animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Naroju Ashwanth</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I’m Naroju Ashwanth, a passionate web developer with a knack for building modern, responsive web applications.
+      I continuously explore new technologies to enhance user experience and design.
+    </p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Student Dropout Predictor</h3>
+        <p>
+          A machine learning application that predicts student dropouts using demographic and academic data.
+        </p>
+        <a href="https://github.com/NarojuAshwanth/student-dropout-predictor" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>AI Web Scraper & Visualizer</h3>
+        <p>
+          An application that extracts website data and creates visual summaries using AI and data visualization techniques.
+        </p>
+        <a href="https://github.com/NarojuAshwanth/ai-web-scraper-visualizer" target="_blank">View Project</a>
+      </div>
+      <!-- You can add more project cards by following the same structure -->
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mwkgnzvj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>
+      Or email me directly at:
+      <a href="mailto:narojuashwanth877@gmail.com">narojuashwanth877@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://www.linkedin.com/in/naroju-ashwanth-784115343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/NarojuAshwanth" target="_blank">GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- AOS JS for scroll animations -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
