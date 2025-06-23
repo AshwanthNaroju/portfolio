@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.createElement("button");
   toggleButton.textContent = "Toggle Dark Mode";
+  
   // Style the button (optional)
   toggleButton.style.position = "fixed";
   toggleButton.style.top = "1rem";
